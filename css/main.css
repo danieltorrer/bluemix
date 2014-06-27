@@ -1,0 +1,142 @@
+html,body{
+	height: 100%;
+}
+
+h1,h2,h3,h4,h5,h6,span,a,p{
+	font-family: 'Ubuntu', sans-serif !important;
+}
+
+body{
+	background: #1f253d;
+}
+
+.fullWidth {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: initial;
+	height: 100%;
+}
+
+aside{
+	height: 100%;
+	background: #394264;
+}
+
+/* m a i n */
+
+.header h2{
+	margin-top: 10px;
+	color: white;
+	font-weight: 300;
+}
+
+.username{
+	margin-right: 20px;
+	margin-top: 20px;
+}
+
+.username .name{
+	color: white;
+}
+
+.username .name:hover{
+	text-decoration: underline;
+}
+
+.username .circle img{
+	border: 3px solid #5d637a;
+	width: 40px;
+	height: 40px;
+	border-radius:80%;
+	-webkit-border-radius:80%;
+	-moz-border-radius:80%;
+	-o-border-radius:80%;
+}
+
+.username>img{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.reportes{
+	margin-top: 10px;
+}
+
+.fecha h3{
+	font-size: 26px;
+	color: white;
+}
+
+.fecha h3 span{
+	font-weight: 300;
+}
+
+article.dia-reporte:first-child{
+	margin-top: 20px;
+}
+
+article.dia-reporte hr{
+	color: #11a8ab;
+	background: #11a8ab;
+	height: 2px;
+	border: none;
+}
+
+/* A s i d e */ 
+
+.agregar{
+	width: 200px;
+	//height: 50px;
+	display: block;
+	margin: 0 auto;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	background-color: #4fc4f6;
+	font-size: 16px;
+	margin-top: 100px;
+}
+
+.agregar:hover{
+	background: #25b6f4;
+}
+
+aside .menu li{
+	list-style: none;
+	border-bottom: 1px solid #303857;
+}
+
+aside .menu li .row:hover{
+	background: #50597b;
+}
+
+aside .menu li:first-child{
+	margin-top: 40px;
+}
+
+aside .menu li>.row .icon{
+	padding-left: 15px;
+}
+
+aside .menu li>.row .notification span{
+	padding: 1px 10px 5px;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	background-color: #e64c65;
+
+}
+
+aside .menu li>.row .notification{
+	padding-top: 25px;
+	color: white;
+}
+
+aside .menu li>.row div{
+	padding: 20px 0 0px 0;
+}
+
+aside .menu li p{
+	color: white;
+}

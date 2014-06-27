@@ -1,0 +1,154 @@
+html,body{
+	height: 100%;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+	background: url('../img/back.png') no-repeat top center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+	color:    #c1e097;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+	color:    #c1e097;
+	opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+	color:    #c1e097;
+	opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+	color:    #c1e097;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.title{
+	margin-top: 70px;
+	margin-bottom: 20px;
+}
+
+.title h3{
+	font-weight: 300;
+	color: white;
+	font-style: italic;
+}
+
+#transparencia{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.3);
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.contrasena:hover{
+	text-decoration: underline;
+}
+
+.login{
+
+}
+
+.login h6{
+	color: white;
+	margin-bottom: 20px;
+}
+
+.login p{
+	margin-top: 20px;
+	color: white;
+}
+
+.login input[type=text], .login input[type=password]{
+	//width: 464px;
+	height: 42px;
+	-webkit-border-radius: 7px/5px;
+	-moz-border-radius: 7px/5px;
+	border-radius: 7px/5px;
+	border: solid 2px #c4d4af;
+	color: white;
+	font-size: 18px;
+}
+
+.login input[type=password]{
+	background: #9acd56 url('../img/lock.png') no-repeat left center;
+	padding-left: 60px;
+}
+
+.login input[type=text]{
+	background: #9acd56 url('../img/mail.png') no-repeat left center;
+	padding-left: 60px;
+}
+
+.login input[type=text]:focus, .login input[type=password]:focus{
+	border: solid 2px #fff;
+	color: white;
+}
+
+.buttons{
+	text-align: center;
+}
+
+.buttons a{
+	display: block;
+	margin: 0 auto;
+	width: 250px;
+	height: 50px;
+	-webkit-border-radius: 9px/6px;
+	-moz-border-radius: 9px/6px;
+	border-radius: 9px/6px;
+	margin-bottom: 20px;
+	font-size: 18px;
+	letter-spacing: 1.2px;
+	font-family: 'Ubuntu', sans-serif;
+
+}
+
+.buttons a:hover{
+	
+}
+
+.button.primary{
+	background-color: #e64c65;
+}
+
+.button.primary:hover{
+	background: #db1f3d;
+}
+
+.button.secundario{
+	background-color: #00a99d;
+}
+
+.button.secundario:hover{
+	background-color: #008f85;
+}
+
+.logo{
+	
+}
+
+.logo img{
+	//background: rgba(255,255,255,0.6);
+	height: 30px;
+	margin-top: 15px;
+}
+
+.powered{
+	position: absolute;
+	bottom: 0px;
+	color: white;
+}
+
+.powered span{
+	font-style: italic;
+}
